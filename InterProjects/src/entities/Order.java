@@ -49,9 +49,9 @@ public class Order {
         StringBuilder sb = new StringBuilder();
         sb.append("ORDER SUMMARY:"+"\n" );
         sb.append("Order moment: ");
-        sb.append(sdf.format(getMoment())+ "\n" );
+        sb.append(sdf.format(moment)+ "\n" );
         sb.append("Status: " );
-        sb.append(getStatus()+"\n" );
+        sb.append(status()+"\n" );
         sb.append("Client: ");
         sb.append(client+"\n" );
         sb.append("Order Items: "+"\n" );
