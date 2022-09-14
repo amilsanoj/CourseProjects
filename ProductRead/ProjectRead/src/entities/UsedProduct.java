@@ -13,12 +13,8 @@ public class UsedProduct extends Product{
         this.localDate = date;
     }
 
-    public LocalDate getLocalDate() {
-        return localDate;
-    }
-
     @Override
     public String priceTag(){
-        return getName() + " (Used) $ " + getPrice() + " (Manufacture Date: " + getLocalDate().format(fmt1)+")";
+        return name + " (Used) $ " + String.format("%.2f",price) + " (Manufacture Date: " + localDate.format(fmt1)+")";
     }
 }
