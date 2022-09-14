@@ -25,6 +25,6 @@ public class OrderItem {
 
     @Override
     public String toString() {
-        return product + ", $" + getPrice() + ", Quantity: " + getQuantity() + ", Subtotal: " + subTotal();
+        return product + ", $" + price + ", Quantity: " + quantity + ", Subtotal: " + subTotal();
     }
 }
