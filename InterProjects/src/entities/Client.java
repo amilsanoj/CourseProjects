@@ -29,6 +29,6 @@ public class Client {
 
     @Override
     public String toString() {
-        return "Client: " + getName()  + " ("+sdfb.format(getBirthDate())+") " + " - " + getEmail();
+        return "Client: " + name  + " ("+sdfb.format(birthDate)+") " + " - " + email;
     }
 }
